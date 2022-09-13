@@ -20,7 +20,7 @@ console.log(`The name ${name1} is longer than ${name2} by ${name1.length - name2
 
 //medium 
 
-// var message = prompt("Type a message"); commented this out so I could text out the other functions
+var message = prompt("Type a message"); 
 
 if (message == message.toUpperCase()) {
     console.log('shouting');
